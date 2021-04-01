@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#6CC7D1">
+
+        <TextView
+            android:id="@+id/misionyvision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/desarrollo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="right|center"
+            android:padding="20dp"
+            android:text="Misión y Visión"
+            android:textSize="26sp"
+            app:fontFamily="@font/alfa_slab_one" />
+
+        <TextView
+            android:id="@+id/mision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/desarrollo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Misión"
+            android:textSize="26sp"
+            app:fontFamily="@font/alfa_slab_one" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="143dp"
+            android:src="@drawable/comunity" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
+            android:text="“Somos una institución de Educación Superior a nivel técnico y tecnológico, dedicada a formar profesionales comprometidos éticamente con la sociedad, desde una preparación basada en entornos de aprendizaje académicos y experienciales que contribuyan al desarrollo de matriz productiva de la región”" />
+
+        <TextView
+            android:id="@+id/vision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/desarrollo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Visión"
+            android:textSize="26sp"
+            app:fontFamily="@font/alfa_slab_one" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:src="@drawable/vision" />
+
+        <TextView
+            android:id="@+id/text_vision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
+            android:text="“Para el año 2022, ser una Institución de Educación Superior Técnica y Tecnológica acreditada, comprometida con la docencia, vinculación e investigación para el desarrollo social y productivo”"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
