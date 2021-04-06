@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Instituto Superior Tecnologico Loja</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -11,4 +11,5 @@
     <string name="menu_gallery">Mision y Vision</string>
     <string name="menu_slideshow">Matriculas 2020-II</string>
     <string name="menu_wikitude">CAMARA WIKITUDE</string>
+    <string name="menu_ayuda">AYUDA</string>
 </resources>

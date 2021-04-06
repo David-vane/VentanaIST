@@ -20,6 +20,10 @@
             android:id="@+id/nav_wikitude"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_wikitude" />
+        <item
+            android:id="@+id/nav_ayuda"
+            android:icon="@drawable/help_icon"
+            android:title="@string/menu_ayuda" />
     </group>
     <item
         android:title="Perfil">

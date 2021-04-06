@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.wikitude.WikitudeFragment">
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/text_wikitude"
@@ -26,19 +26,11 @@
         android:orientation="vertical"
         android:background="#6CC7D1">
 
-        <ImageView
-            android:id="@+id/static_imagen"
+        <Button
+            android:id="@+id/wikitude"
             android:layout_width="match_parent"
-            android:layout_height="354dp"
-            android:contentDescription="@string/app_name"
-            android:src="@drawable/imagen" />
-
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="match_parent"
-            android:layout_height="54dp"
-            android:background="@android:color/transparent"
-            android:contentDescription="@string/app_name"
-            android:src="@drawable/ic_menu_camera" />
+            android:layout_height="wrap_content"
+            android:text="WIKITUDE"
+            android:onClick="onClick"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

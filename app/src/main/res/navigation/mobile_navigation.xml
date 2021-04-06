@@ -27,4 +27,9 @@
         android:name="recuperacion.app.myapplication.ui.wikitude.WikitudeFragment"
         android:label="@string/menu_wikitude"
         tools:layout="@layout/fragment_wikitude" />
+    <fragment
+        android:id="@+id/nav_ayuda"
+        android:name="recuperacion.app.myapplication.ui.ayuda.AyudaFragment"
+        android:label="@string/menu_wikitude"
+        tools:layout="@layout/ayuda" />
 </navigation>

@@ -1,4 +1,4 @@
-package recuperacion.app.myapplication.ui.wikitude;
+package recuperacion.app.myapplication.ui.ayuda;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProvider;
 
 import recuperacion.app.myapplication.R;
 
-public class WikitudeFragment extends Fragment{
+public class AyudaFragment extends Fragment {
 
-    private WikitudeViewModel wikitudeViewModel;
+    private AyudaViewModel ayudaViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        wikitudeViewModel =
-                new ViewModelProvider(this).get(WikitudeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_wikitude, container, false);
-        final TextView textView = root.findViewById(R.id.text_wikitude);
-        wikitudeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        ayudaViewModel =
+                new ViewModelProvider(this).get(AyudaViewModel.class);
+        View root = inflater.inflate(R.layout.ayuda, container, false);
+        final TextView textView = root.findViewById(R.id.text_ayuda);
+        ayudaViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
@@ -32,6 +32,4 @@ public class WikitudeFragment extends Fragment{
         });
         return root;
     }
-
-
 }

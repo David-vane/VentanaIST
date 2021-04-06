@@ -71,5 +71,12 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
-
+    public void onClick(View v) {
+        String nombre_paquete = "com.wikitude.wikitudestudioandroidapptemplate";
+        Intent i = new Intent();
+        PackageManager manager = getPackageManager();
+        i = manager.getLaunchIntentForPackage(nombre_paquete);
+        i.addCategory(Intent.CATEGORY_LAUNCHER);
+        startActivity(i);
+    }
 }

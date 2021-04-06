@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment"
-    >
+    tools:context=".ui.home.HomeFragment">
 
     <TextView
         android:id="@+id/text_home"
@@ -37,7 +36,7 @@
                 android:layout_marginTop="24dp"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
-                android:text="DESARROLLO DE SOFTWARE"
+                android:text="Ofertas Academicas"
                 android:textSize="25sp"
                 app:fontFamily="@font/alegreya_sc_bold_italic"
                 app:layout_constraintEnd_toStartOf="@+id/imageView"
@@ -52,7 +51,7 @@
                 android:layout_marginTop="8dp"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
-                android:text="Comineza a desarrollar"
+                android:text="Informate de nuestras carreras"
                 android:textSize="15sp"
                 app:layout_constraintEnd_toStartOf="@+id/imageView"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -67,7 +66,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView"
                 app:layout_constraintTop_toBottomOf="@+id/toolbar"
-                app:srcCompat="@drawable/tec" />
+                app:srcCompat="@drawable/lateral" />
 
             <LinearLayout
                 android:id="@+id/linearLayout"
@@ -99,7 +98,7 @@
                             android:layout_below="@id/desarrollo"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="10dp"
-                            android:text="Conoce Tecnologia"
+                            android:text="Desarrollo de software"
                             android:textSize="16sp"
                             app:fontFamily="@font/aclonica" />
 
@@ -109,7 +108,8 @@
                             android:layout_height="90dp"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="15dp"
-                            app:srcCompat="@drawable/tecnologia" />
+                            app:srcCompat="@drawable/tecnologia"
+                            android:onClick="view"/>
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -131,7 +131,7 @@
                             android:layout_below="@id/imageView3"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="10dp"
-                            android:text="Desarrollo de apps"
+                            android:text="Electricidad"
                             android:textSize="16sp"
                             app:fontFamily="@font/aclonica" />
 
@@ -176,7 +176,7 @@
                             android:layout_below="@id/bus1"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="10dp"
-                            android:text="Codigos de apps"
+                            android:text="Contabilidad"
                             android:textSize="16sp"
                             app:fontFamily="@font/aclonica" />
 
@@ -208,7 +208,7 @@
                             android:layout_below="@id/train"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="10dp"
-                            android:text="Instalacion de software"
+                            android:text="Procesamiento de alimentos"
                             android:textSize="16sp"
                             app:fontFamily="@font/aclonica" />
 
@@ -252,7 +252,7 @@
                             android:layout_below="@id/cycle"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="10dp"
-                            android:text="Lenguajes"
+                            android:text="Mecanica Automotriz"
                             android:textSize="16sp"
                             app:fontFamily="@font/aclonica" />
 
@@ -266,37 +266,7 @@
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_margin="10dp"
-                    android:layout_weight="1">
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="#6CC7D1">
-
-                        <TextView
-                            android:id="@+id/textView9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@id/airplane"
-                            android:layout_centerHorizontal="true"
-                            android:layout_marginTop="10dp"
-                            android:text="Configuracion de Software"
-                            android:textSize="16sp"
-                            app:fontFamily="@font/aclonica" />
-
-                        <ImageView
-                            android:id="@+id/airplane"
-                            android:layout_width="72dp"
-                            android:layout_height="66dp"
-                            android:layout_centerHorizontal="true"
-                            android:layout_marginTop="15dp"
-                            app:srcCompat="@drawable/conf" />
-                    </RelativeLayout>
-                </androidx.cardview.widget.CardView>
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
