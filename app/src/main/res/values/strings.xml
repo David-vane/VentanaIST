@@ -8,8 +8,35 @@
     <string name="action_settings">Ayuda</string>
 
     <string name="menu_home">Inicio</string>
-    <string name="menu_gallery">Mision y Vision</string>
+    <string name="menu_gallery">Misión y Visión</string>
+    <string name="menu_equipo">Nuestro Equipo</string>
+    <string name="menu_resolucion">Resolución SETEC</string>
+    <string name="menu_planificacion">Planificación</string>
+    <string name="menu_estatuto">Estatuto</string>
+    <string name="menu_interno">Reglamento Interno de Seguridad y Salud Ocupacional</string>
+    <string name="menu_instructivo">Instructivo de Selección de Personal</string>
+    <string name="menu_elecciones">Reglamento de Elecciones del IST-LOJA</string>
+    <string name="menu_cuentas17">Rendición de cuentas 2017</string>
+    <string name="menu_cuentas18">Rendición de cuentas 2018</string>
+    <string name="menu_cuentas19">Rendición de cuentas 2019</string>
+    <string name="menu_alimentos">Procesamiento de alimentos</string>
+    <string name="menu_software">Desarrollo de Software</string>
+    <string name="menu_contabilidad">Contabilidad</string>
+    <string name="menu_electricidad">Electricidad</string>
+    <string name="menu_mecanica">Mecanica Automotriz</string>
+    <string name="menu_seguridad">Seguridad Ciudadana y Orden Público</string>
+    <string name="menu_infantil">Desarrollo Infantil Integral</string>
     <string name="menu_slideshow">Matriculas 2020-II</string>
     <string name="menu_wikitude">CAMARA WIKITUDE</string>
     <string name="menu_ayuda">AYUDA</string>
+    <string name="menu_contactos">Contactos</string>
+    <string name="menu_galeria">Galeria</string>
+    <string name="menu_eva">EVA</string>
+    <string name="menu_alumnos">Ex Alumnos</string>
+    <string name="menu_bienestar">Bienestar Estudiantil</string>
+    <string name="menu_biblioteca">Biblioteca Virtual</string>
+    <string name="menu_investigacion">Investigación</string>
+    <string name="sitios">Sitios Turisticos</string>
+    <!--Complemento para el mapa -->
+    <string name="marker_detail_latlng">(%1$.2f, %2$.2f)</string>
 </resources>

@@ -6,16 +6,119 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
+        android:id="@+id/nav_gallery"
+        android:name="recuperacion.app.myapplication.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_equipo"
+        android:name="recuperacion.app.myapplication.ui.equipo.EquipoFragment"
+        android:label="@string/menu_equipo"
+        tools:layout="@layout/fragment_equipo" />
+
+    <fragment
         android:id="@+id/nav_home"
         android:name="recuperacion.app.myapplication.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="recuperacion.app.myapplication.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_contactos"
+        android:name="recuperacion.app.myapplication.ui.contactos.ContactoFragment"
+        android:label="@string/menu_contactos"
+        tools:layout="@layout/fragment_contacto" />
+
+    <fragment
+        android:id="@+id/nav_alimentos"
+        android:name="recuperacion.app.myapplication.ui.alimentos.AlimentosFragment"
+        android:label="@string/menu_alimentos"
+        tools:layout="@layout/fragment_alimentos" />
+    <fragment
+        android:id="@+id/nav_contabilidad"
+        android:name="recuperacion.app.myapplication.ui.contabilidad.ContabilidadFragment"
+        android:label="@string/menu_contabilidad"
+        tools:layout="@layout/fragment_contabilidad" />
+    <fragment
+        android:id="@+id/nav_electricidad"
+        android:name="recuperacion.app.myapplication.ui.electricidad.ElectricidadFragment"
+        android:label="@string/menu_electricidad"
+        tools:layout="@layout/fragment_electricidad" />
+    <fragment
+        android:id="@+id/nav_planificacion"
+        android:name="recuperacion.app.myapplication.ui.planificacion.PlanificacionFragment"
+        android:label="@string/menu_planificacion"
+        tools:layout="@layout/fragment_planificacion" />
+    <fragment
+        android:id="@+id/nav_estatuto"
+        android:name="recuperacion.app.myapplication.ui.estatuto.EstatutoFragment"
+        android:label="@string/menu_estatuto"
+        tools:layout="@layout/fragment_estatuto" />
+    <fragment
+        android:id="@+id/nav_interno"
+        android:name="recuperacion.app.myapplication.ui.interno.InternoFragment"
+        android:label="@string/menu_interno"
+        tools:layout="@layout/fragment_registro_interno" />
+    <fragment
+        android:id="@+id/nav_instructivo"
+        android:name="recuperacion.app.myapplication.ui.instructivo.InstructivoFragment"
+        android:label="@string/menu_instructivo"
+        tools:layout="@layout/fragment_instructivo" />
+    <fragment
+        android:id="@+id/nav_eleccciones"
+        android:name="recuperacion.app.myapplication.ui.elecciones.EleccionesFragment"
+        android:label="@string/menu_elecciones"
+        tools:layout="@layout/fragment_elecciones" />
+
+    <fragment
+        android:id="@+id/nav_cuentas17"
+        android:name="recuperacion.app.myapplication.ui.cuentas17.Cuentas17Fragment"
+        android:label="@string/menu_cuentas17"
+        tools:layout="@layout/fragment_cuentas17" />
+    <fragment
+        android:id="@+id/nav_cuentas18"
+        android:name="recuperacion.app.myapplication.ui.cuentas18.Cuentas18Fragment"
+        android:label="@string/menu_cuentas18"
+        tools:layout="@layout/fragment_cuentas18" />
+    <fragment
+        android:id="@+id/nav_cuentas19"
+        android:name="recuperacion.app.myapplication.ui.cuentas19.Cuentas19Fragment"
+        android:label="@string/menu_cuentas19"
+        tools:layout="@layout/fragment_cuentas19" />
+    <fragment
+        android:id="@+id/nav_software"
+        android:name="recuperacion.app.myapplication.ui.software.SoftwareFragment"
+        android:label="@string/menu_software"
+        tools:layout="@layout/fragment_software" />
+    <fragment
+        android:id="@+id/nav_softwarevilca"
+        android:name="recuperacion.app.myapplication.ui.software.SoftwareFragment"
+        android:label="@string/menu_software"
+        tools:layout="@layout/fragment_software" />
+    <fragment
+        android:id="@+id/nav_contabilidadvilca"
+        android:name="recuperacion.app.myapplication.ui.contabilidad.ContabilidadFragment"
+        android:label="@string/menu_contabilidad"
+        tools:layout="@layout/fragment_contabilidad" />
+    <fragment
+        android:id="@+id/nav_mecanica"
+        android:name="recuperacion.app.myapplication.ui.mecanica.MecanicaFragment"
+        android:label="@string/menu_mecanica"
+        tools:layout="@layout/fragment_mecanica" />
+    <fragment
+        android:id="@+id/nav_infantil"
+        android:name="recuperacion.app.myapplication.ui.infantil.InfantilFragment"
+        android:label="@string/menu_infantil"
+        tools:layout="@layout/fragment_infantil" />
+    <fragment
+        android:id="@+id/nav_seguridad"
+        android:name="recuperacion.app.myapplication.ui.seguridad.SeguridadFragment"
+        android:label="@string/menu_seguridad"
+        tools:layout="@layout/fragment_seguridad" />
+    <fragment
+        android:id="@+id/nav_investigacion"
+        android:name="recuperacion.app.myapplication.ui.investigacion.InvestigacionFragment"
+        android:label="@string/menu_investigacion"
+        tools:layout="@layout/fragment_investigacion" />
 
     <fragment
         android:id="@+id/nav_slideshow"

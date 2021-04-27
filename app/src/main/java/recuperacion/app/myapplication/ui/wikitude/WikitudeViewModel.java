@@ -10,7 +10,7 @@ public class WikitudeViewModel extends ViewModel {
 
     public WikitudeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Esta es la ventana de wikitude");
+        mText.setValue("");
     }
 
     public LiveData<String> getText() {

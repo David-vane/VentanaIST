@@ -13,22 +13,24 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:src="@drawable/logo"
-        android:padding="10dp"/>
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:src="@drawable/logo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:fontFamily="@font/alegreya_sc_bold_italic"
         android:text="INSTITUTO SUPERIOR TECNOLOGICO LOJA"
-        android:textSize="16sp" />
+        android:textSize="14sp"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
         android:text="www.tecnologicoloja.edu.ec"
-        android:textSize="16sp" />
+        android:textSize="12sp" />
 </LinearLayout>

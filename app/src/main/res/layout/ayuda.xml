@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
-	android:background="@mipmap/istloja"
+
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	android:orientation="horizontal"
 	android:padding="20dp"
 	android:paddingEnd="20dp"
-	android:paddingStart="20dp">
+	android:paddingStart="20dp"
+	android:background="#6CC7D1">
 
 	<TextView
 		android:id="@+id/textayuda"

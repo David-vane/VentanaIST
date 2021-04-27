@@ -4,61 +4,208 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_wikitude"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_wikitude" />
-        <item
-            android:id="@+id/nav_ayuda"
-            android:icon="@drawable/help_icon"
-            android:title="@string/menu_ayuda" />
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="@string/menu_home" >
+    </item>
     </group>
     <item
-        android:title="Perfil">
+        android:title="Institución">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/menu_gallery" />
+            <item
+                android:id="@+id/nav_equipo"
+                android:icon="@drawable/groups"
+                android:title="@string/menu_equipo" />
+            <item
+                android:id="@+id/nav_resolucion"
+                android:icon="@drawable/books"
+                android:title="@string/menu_resolucion" />
+            <item
+                android:id="@+id/nav_planificacion"
+                android:icon="@drawable/books"
+                android:title="@string/menu_planificacion" />
+            <item
+                 android:id="@+id/nav_estatuto"
+                 android:icon="@drawable/book"
+                 android:title="@string/menu_estatuto" />
+
+                <item
+                    android:id="@+id/nav_wikitude"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="@string/menu_wikitude" />
+                <item
+                    android:id="@+id/nav_ayuda"
+                    android:icon="@drawable/help_icon"
+                    android:title="@string/menu_ayuda" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:title="Reglamento">
         <menu>
             <group android:checkableBehavior="single">
                 <item
-                    android:id="@+id/nav_login"
-                    android:title="Login"
+                    android:id="@+id/nav_interno"
+                    android:icon="@drawable/book"
+                    android:title="@string/menu_interno" />
+                <item
+                    android:id="@+id/nav_instructivo"
+                    android:icon="@drawable/book"
+                    android:title="@string/menu_instructivo" />
+                <item
+                    android:id="@+id/nav_elecciones"
+                    android:icon="@drawable/book"
+                    android:title="@string/menu_elecciones" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:title="Rendicion de cuentas">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_cuentas17"
+                    android:icon="@drawable/books"
+                    android:title="@string/menu_cuentas17" />
+                <item
+                    android:id="@+id/nav_cuentas18"
+                    android:icon="@drawable/books"
+                    android:title="@string/menu_cuentas18" />
+                <item
+                    android:id="@+id/nav_cuentas19"
+                    android:icon="@drawable/books"
+                    android:title="@string/menu_cuentas19" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:title="Oferta Academica">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="">
+                    <menu>
+                        <group android:checkableBehavior="single">
+                        </group>
+                    </menu>
+                </item>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:title="Modalidad presencial Loja">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_alimentos"
+                    android:title="@string/menu_alimentos"
                     android:icon="@drawable/login_icon"/>
                 <item
-                    android:id="@+id/nav_perfil"
-                    android:title="Perfil"
+                    android:id="@+id/nav_software"
+                    android:title="@string/menu_software"
                     android:icon="@drawable/profile_icon"/>
                 <item
-                    android:id="@+id/logout"
-                    android:title="Logout"
+                    android:id="@+id/nav_contabilidad"
+                    android:title="@string/menu_contabilidad"
+                    android:icon="@drawable/logout_icon"/>
+                <item
+                    android:id="@+id/nav_electricidad"
+                    android:title="@string/menu_electricidad"
+                    android:icon="@drawable/logout_icon"/>
+                <item
+                    android:id="@+id/nav_mecanica"
+                    android:title="@string/menu_mecanica"
                     android:icon="@drawable/logout_icon"/>
             </group>
         </menu>
     </item>
+    <item
+        android:title="Modalidad presencial Vilcabamba">
+        <menu>
+            <group android:checkableBehavior="single">
 
+                <item
+                    android:id="@+id/nav_softwarevilca"
+                    android:title="@string/menu_software"
+                    android:icon="@drawable/profile_icon"/>
+                <item
+                    android:id="@+id/nav_contabilidadvilca"
+                    android:title="@string/menu_contabilidad"
+                    android:icon="@drawable/logout_icon"/>
 
-    <item android:title="Comunicacion">
+            </group>
+        </menu>
+    </item>
+    <item
+        android:title="Modalidad Dual">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_infantil"
+                    android:title="@string/menu_infantil"
+                    android:icon="@drawable/profile_icon"/>
+                <item
+                    android:id="@+id/nav_seguridad"
+                    android:title="@string/menu_seguridad"
+                    android:icon="@drawable/logout_icon"/>
+
+            </group>
+        </menu>
+    </item>
+    <item android:title="Investigacion">
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:title="Share"
-                android:icon="@drawable/share_icon">
-            </item>
-            <item
-                android:id="@+id/nav_rate"
-                android:title="Calificanos"
-                android:icon="@drawable/rate_icon">
+                android:title="@string/menu_investigacion"
+                android:icon="@drawable/share_icon"/>
+        </menu>
+    </item>
 
-            </item>
+    <item android:title="Matriculas">
+        <menu>
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/menu_slideshow" />
+        </menu>
+    </item>
+
+    <item android:title="Servicios">
+        <menu>
+            <item
+                android:id="@+id/nav_biblioteca"
+                android:title="@string/menu_biblioteca"
+                android:icon="@drawable/login_icon"/>
+            <item
+                android:id="@+id/nav_bienestar"
+                android:title="@string/menu_bienestar"
+                android:icon="@drawable/profile_icon"/>
+            <item
+                android:id="@+id/nav_alumnos"
+                android:title="@string/menu_alumnos"
+                android:icon="@drawable/logout_icon"/>
+            <item
+                android:id="@+id/nav_eva"
+                android:title="@string/menu_eva"
+                android:icon="@drawable/logout_icon"/>
+            <item
+                android:id="@+id/nav_galeria"
+                android:title="@string/menu_galeria"
+                android:icon="@drawable/logout_icon"/>
+        </menu>
+    </item>
+    <item android:title="Contactos">
+        <menu>
+            <item
+                android:id="@+id/nav_contactos"
+                android:title="@string/menu_contactos"
+                android:icon="@drawable/logout_icon"/>
         </menu>
     </item>
 </menu>
