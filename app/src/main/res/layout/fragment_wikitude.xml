@@ -19,6 +19,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    //este sirve para que la aplicacion sea deslizable segun la informacion
+    //arriba hacia abajo y de abajo hacia arriba
 
     <ScrollView
         android:layout_width="match_parent"

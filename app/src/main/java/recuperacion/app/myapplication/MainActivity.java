@@ -53,6 +53,7 @@ import ahmed.easyslider.SliderItem;
 
 
         FloatingActionButton fab = findViewById(R.id.fab);
+        //metodo para que nos lleve directo a la llamada
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -87,6 +88,7 @@ import ahmed.easyslider.SliderItem;
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+    //metodo para que nos redireccione a la aplicacion de wikitude
     public void onClick(View v) {
         String nombre_paquete = "com.wikitude.wikitudestudioandroidapptemplate";
         Intent i = new Intent();
@@ -95,7 +97,7 @@ import ahmed.easyslider.SliderItem;
         i.addCategory(Intent.CATEGORY_LAUNCHER);
         startActivity(i);
     }
-
+        //Metodos para redireccionar a una direccion web
     public void Whatsapp(View view) {
         Intent i= new Intent(Intent.ACTION_VIEW, Uri.parse("https://tecnologicoloja.edu.ec/"));
         startActivity(i);
@@ -109,6 +111,7 @@ import ahmed.easyslider.SliderItem;
         startActivity(i);
 
     }
+
     public void ActaAprobacion(View view){
         Intent i = new Intent (Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1D6n5Hq7GbRwcfMIRH3rvheKEjU12uU-8/view"));
         startActivity(i);
